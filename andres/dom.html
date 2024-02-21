@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom</title>
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+<!--1-->
+<h1 class="titulo" id="pantalla"></h1>
+<input class="input" id="textinput" type="text" placeholder="Escirbe Aquí" name="" id="">
+<input class="btn" id="btn-print" type="submit" value="imprimir" onclick="imprimir()">
+
+<!--2-->
+<div>
+    <div class="cuadro" id="cuadro"></div>
+    <button class="btn verde" onclick="pintar('Green')" >Verde</button>
+    <button class="btn rojo" onclick="pintar('red')">Rojo</button>
+    <button class="btn azul" onclick="pintar('cyan')">Azul</button>
+    <button class="btn amarillo" onclick="pintar('yellow')">Amarillo</button>
+</div>
+
+<!--3-->
+<div class="circulo" id="circulo"></div>
+<button class="btn mover" onclick="mover()">Mover</button>
+<!--4-->
+<div >
+
+<img id="imagen" src="./img/img 1.jpg" alt=""> 
+<br>   
+<button class="btn rojo" onclick="cambiar()"> cambair</button>
+</div>
+
+<!--5-->
+<img id="galeria" src="./img/img 3.jpg" alt="">
+<br>
+<button class="btn verde" onclick="anterior()">anterior</button>
+<button class="btn azul" onclick="siguiente()">siguiente</button>
+
+<script src="./dom.js"></script>
+</body>
+</html>
